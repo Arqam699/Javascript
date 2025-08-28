@@ -4,5 +4,5 @@ console.log(negnumber1);
 
 let number2= -2
 let negnumber2 = - number2
-console.log(negnumber2);
+
 
