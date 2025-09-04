@@ -26,7 +26,7 @@
 
    console.log(person.city);
 
-   Object.freeze(person)  // now the values if objectn can not be cahnged
+   Object.freeze(person)  // now the values of objects can not be cahnged
 
    person.degree="msc"
 
@@ -61,7 +61,7 @@
    console.log(personinfo.shahinfo.shahcityinfo.city2);
 
 
-   // merger two or more objects in one object
+   // merge two or more objects in one object
 
    let obj1={
       key_1:1,
@@ -80,7 +80,7 @@
       key_9:9
    }
 
-   // const finalobj = Object.assign( {},obj1,obj2)     //assign used tu merge two or more objects
+   // const finalobj = Object.assign( {},obj1,obj2)     //assign used to merge two or more objects
 
    const finalobj={...obj1,...obj2,...obj3} // also used to merge objects
 
@@ -93,7 +93,7 @@
 
    console.log(Object.values(personinfo)); //gives values of personinfo object
 
-   console.log(Object.entries(finalobj)); //gives vaues and keys in arrays
+   console.log(Object.entries(finalobj)); //gives values and keys in arrays
    
    
    
